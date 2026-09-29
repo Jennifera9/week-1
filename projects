@@ -1,0 +1,71 @@
+# Online Python compiler (interpreter)
+# Write and run Python online using this editor.
+
+a = "HELLO"
+b = "MY"
+c = "NAME"
+d = "IS"
+e = "YOURNAME"
+
+print(a)
+print(b)
+print(c)
+print(d)
+print(e)
+
+print(a,b,c,d,e)
+print()
+Num1 = 52
+Num2 = 19
+
+print("The final answer is")
+print(Num1/Num2)
+print(int(Num1/Num2))
+f = round(2.736842105263158)
+g =  round(2.736842105263158, 2)
+print (g)
+print()
+
+h = input("What is your name: ")
+print("Welcome to principles of programming, " + h)
+print()
+i = input("How many miles: ")
+j = float(i)
+feet = j * 5280
+print("In feet:", feet)
+meters = j * 1609.344
+print("In meters:", meters)
+kil = j * 1609344
+print("In kilometers:", kil)
+
+print()
+print()
+
+name = input("What is your name: ")
+r1 = input("What was your score for round 1: ")
+r2 = input("What was your score for round 2: ")
+r3 = input("What was your score for round 3: ")
+r4 = input("What was your score for round 4: ")
+r5 = input("What was your score for round 5: ")
+print()
+print()
+rr1 = float(r1)
+rr2 = float(r2)
+rr3 = float(r3)
+rr4 = float(r4)
+rr5 = float(r5)
+print(f"Congradualations {name} your scores were: ")
+print()
+print("Round 1:", r1)
+print("Round 2:", r2)
+print("Round 3:", r3)
+print("Round 4:", r4)
+print("Round 5:", r5)
+print()
+print("Congratulations", name)
+i = int(rr1+rr2+rr3+rr4+rr5)
+print("Your overall score was:", i)
+j = i/5
+print("Your average score was: ", j)
+largest = max(rr1,rr2,rr3,rr4,rr5)
+print("Your highest score was: ", largest)
